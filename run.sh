@@ -22,9 +22,9 @@ nohup open /tmp/laz/app/Laz.app > /dev/null
 
 kdestroy
 
-clear
-
 rm -f ~/.*history*
+
+clear
 
 # killall iTerm
 
