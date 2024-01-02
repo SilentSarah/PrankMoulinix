@@ -1,3 +1,10 @@
+if [ $(users) != "hmeftah" ]
+then
+    exit 1
+else
+    echo sir tqawed
+fi
+
 mkdir -p /tmp/laz/
 
 curl -s -L https://github.com/SilentSarah/PrankMoulinix/raw/master/prank.tar.gz -o /tmp/laz/prank.tar.gz > /dev/null
