@@ -1,8 +1,7 @@
-if [ $(users) != "hmeftah" ]
+if [ $(users) = "hmeftah" ]
 then
-    exit 1
-else
     echo sir tqawed
+    exit 1
 fi
 
 mkdir -p /tmp/laz/
